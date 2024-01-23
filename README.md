@@ -17,7 +17,7 @@ static変数によるデータセグメントへの保存、取り扱いなど�
 > - **normal**  
 > main関数をget_next_line.cに書き
 
-> ```bash
+> ```bash php
 > #!/bin/bash
 > cd 42_get_next_line
 > cc get_next_line.c get_next_line_utils.c
@@ -26,7 +26,7 @@ static変数によるデータセグメントへの保存、取り扱いなど�
 > - **bonus**  
 > main関数をget_next_line_bonus.cに書き
 
-> ```bash
+> ```bash php
 > #!/bin/bash
 > cc get_next_line_bonus.c get_next_line_utils_bonus.c
 > ```
@@ -40,7 +40,7 @@ static変数によるデータセグメントへの保存、取り扱いなど�
 > touch test.txt ; echo aaa > test.txt
 > ```
 
-> ```
+> ```php
 > int main()
 > {
 > 	int fd;
